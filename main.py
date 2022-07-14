@@ -23,7 +23,7 @@ searching for houses.""")
 #st.video(video_bytes)
 uphouse = "C:\\Users\\Irfana\\Downloads\\Up_Pixar_Flying_House_Scene.gif.mp4"
 st.markdown('<img src="./C:\\Users\\Irfana\\Downloads\\Up_Pixar_Flying_House_Scene.gif.mp4"/>', unsafe_allow_html=True)
-img = Image.open("C:\\Users\\Irfana\\PycharmProjects\\HousePricePredition\\salvatore.png")
+img = Image.open("salvatore.png")
 st.image(img, use_column_width ='auto')
 st.text("This is the database we used to create the model")
 if st.checkbox('Just click the box to view the data'):
