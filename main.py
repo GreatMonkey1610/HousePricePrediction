@@ -7,7 +7,7 @@ import math
 import streamlit as st
 model = pickle.load(open("housepricepredictionmodel.pkl",'rb'))
 
-df = pd.read_csv("GreatMonkey1610/HousePricePrediction/kc_house_data.csv")
+df = pd.read_csv("kc_house_data.csv")
 original_title = '<p style="font-family:w3-cursive;background-color:hsl(3, 100%, 64%); color:LightGray; font-size: 40px;">House Price Prediction by ML</p>'
 # Title
 #st.title("")
